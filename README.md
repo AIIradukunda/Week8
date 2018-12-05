@@ -37,5 +37,11 @@ And typed              <script> alert (‘found XSS’); </script> and then subm
 3.	From there the pop window will show a successful XSS attack
 
 
+Vulnerability: User Enumeration
 
 <a href="https://imgur.com/AUylXUW"><img src="https://i.imgur.com/AUylXUW.gif" title="source: imgur.com" /></a>
+Steps Taken:
+1.I tried to log in using my name and random password, and got a message that “login was unsuccessful”
+2.  When I tried to login with the username ‘pperson’ the message I received “login was unsuccessful” in bold format
+
+
