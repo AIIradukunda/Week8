@@ -17,8 +17,13 @@ Steps Taken:
 3.	Visited chrome browser and I was able to login as the gif shows
 
 
+Vulnerability: SQLI
 
 <a href="https://imgur.com/nlbAg93"><img src="https://i.imgur.com/nlbAg93.gif" title="source: imgur.com" /></a>
+Steps Taken:
+1.	I went to a salesperson page and replaced id by <<    ‘OR SLEEP (5) = 0- -‘    >> and then refreshed the page. The gif shows a successful SQL injection after refreshing the page 
+2.	The URL looks like this:  
+<<   /blue/public/salesperson.php?id=%27%200R%20SLEEP (5) =0--%27   >>
 
 
 
