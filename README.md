@@ -26,9 +26,15 @@ Steps Taken:
 <<   /blue/public/salesperson.php?id=%27%200R%20SLEEP (5) =0--%27   >>
 
 
-
+Vulnerability: Cross Site Script (XSS)
 
 <a href="https://imgur.com/Kle2EWk"><img src="https://i.imgur.com/Kle2EWk.gif" title="source: imgur.com" /></a>
+
+Steps Taken:
+1.	I went Contact Us and then and type in the feedback section:
+And typed              <script> alert (‘found XSS’); </script> and then submit
+2.	It will show that the message “Feedback Received” after that I clicked login and then feedback
+3.	From there the pop window will show a successful XSS attack
 
 
 
