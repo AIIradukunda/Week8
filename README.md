@@ -9,8 +9,12 @@ Steps Taken:
 
 For this challenge I went the user list edit and hit update. I Used Burp to send post request to the repeater, change first name, last name and username clicked go and refresh. When I went back to the user list, the inputs I entered in Burp displayed as the gif shows it 
 
+Vulnerability: Insecure Direct Object Reference(IDOR)
 
 <a href="https://imgur.com/4ZBeOfc"><img src="https://i.imgur.com/4ZBeOfc.gif" title="source: imgur.com" /></a>
+Steps Taken:
+
+For this challenge I went to “Find a Salesperson” and then clicked on one of the Salesperson in the list. I changed the id in the URL to a different number, and the name of the Salesperson changed to a different name
 
 
 Vulnerability: Session hijacking  
