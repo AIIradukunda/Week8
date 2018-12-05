@@ -8,6 +8,10 @@
 <a href="https://imgur.com/4ZBeOfc"><img src="https://i.imgur.com/4ZBeOfc.gif" title="source: imgur.com" /></a>
 
 
+Vulnerability: Session hijacking  
+1.	Logged as an admin
+2.	Use a PHP script that was provided “public/hacktools/change_session_id.php” to find the current session ID or set it the session ID to a new one.
+3.	Visited chrome browser and I was able to login as the gif shows 
 
 
 <a href="https://imgur.com/edm0VhP"><img src="https://i.imgur.com/edm0VhP.gif" title="source: imgur.com" /></a>
